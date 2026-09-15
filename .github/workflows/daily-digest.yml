@@ -2,12 +2,12 @@ name: Daily News Digest
 
 on:
   schedule:
-    # 8:00 AM Australia/Sydney every day. GitHub Actions cron runs in UTC
+    # 2:00 PM Australia/Sydney every day. GitHub Actions cron runs in UTC
     # by default. The timezone field below is an IANA zone, so GitHub keeps
-    # the wall-clock time at 8 AM through the AEST/AEDT switch on its own.
+    # the wall-clock time at 2 PM through the AEST/AEDT switch on its own.
     # Running exactly on the hour would normally risk load spikes, but this
     # workflow is short and low traffic, so :00 is fine here.
-    - cron: "0 8 * * *"
+    - cron: "0 14 * * *"
       timezone: "Australia/Sydney"
   workflow_dispatch: {}   # manual run from the Actions tab
 
