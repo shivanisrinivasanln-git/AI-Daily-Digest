@@ -3,27 +3,32 @@
 
   "topics": [
     {
-      "name": "Tech & AI",
-      "max_stories": 8,
+      "name": "Geopolitics",
+      "max_stories": 7,
       "feeds": [
-        "https://feeds.arstechnica.com/arstechnica/technology-lab",
-        "https://www.theverge.com/rss/index.xml",
-        "https://www.technologyreview.com/feed/",
-        "https://techcrunch.com/category/artificial-intelligence/feed/",
-        "https://www.wired.com/feed/rss",
-        "https://feeds.bbci.co.uk/news/technology/rss.xml",
-        "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
-        "https://openai.com/news/rss.xml",
-        "https://deepmind.google/blog/rss.xml",
-        "https://huggingface.co/blog/feed.xml",
-        "https://blog.google/rss/",
-        "https://blog.cloudflare.com/rss/",
-        "https://www.404media.co/rss/",
-        "https://restofworld.org/feed/latest/",
-        "https://www.theregister.com/headlines.atom",
-        "https://www.theguardian.com/uk/technology/rss",
-        "https://spectrum.ieee.org/feeds/feed.rss",
-        "https://simonwillison.net/atom/everything/"
+        "https://foreignpolicy.com/feed/",
+        "https://www.foreignaffairs.com/rss.xml",
+        "https://www.economist.com/international/rss.xml",
+        "https://www.defenseone.com/rss/all/",
+        "https://www.lowyinstitute.org/the-interpreter/rss.xml",
+        "https://warontherocks.com/feed/",
+        "https://thediplomat.com/feed/",
+        "https://breakingdefense.com/feed/",
+        "https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml",
+        "https://www.bellingcat.com/feed/",
+        "https://www.atlanticcouncil.org/feed/"
+      ]
+    },
+    {
+      "name": "Finance & Economics",
+      "max_stories": 5,
+      "feeds": [
+        "https://www.economist.com/finance-and-economics/rss.xml",
+        "https://feeds.content.dowjones.io/public/rss/mw_topstories",
+        "https://www.investing.com/rss/news.rss",
+        "https://seekingalpha.com/feed.xml",
+        "https://www.federalreserve.gov/feeds/press_all.xml",
+        "https://theconversation.com/au/business/articles.atom"
       ]
     },
     {
@@ -52,59 +57,65 @@
       ]
     },
     {
-      "name": "Geopolitics & Security",
-      "max_stories": 7,
-      "feeds": [
-        "https://foreignpolicy.com/feed/",
-        "https://www.foreignaffairs.com/rss.xml",
-        "https://www.economist.com/international/rss.xml",
-        "https://www.defenseone.com/rss/all/",
-        "https://www.lowyinstitute.org/the-interpreter/rss.xml",
-        "https://warontherocks.com/feed/",
-        "https://thediplomat.com/feed/",
-        "https://breakingdefense.com/feed/",
-        "https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml",
-        "https://www.bellingcat.com/feed/",
-        "https://www.atlanticcouncil.org/feed/"
-      ]
-    },
-    {
-      "name": "Science & Health",
-      "max_stories": 7,
-      "feeds": [
-        "https://feeds.nature.com/nature/rss/current",
-        "https://www.sciencedaily.com/rss/top/science.xml",
-        "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
-        "https://www.statnews.com/feed/",
-        "https://www.technologyreview.com/feed/",
-        "https://www.science.org/rss/news_current.xml",
-        "https://www.scientificamerican.com/platform/syndication/rss/",
-        "https://www.newscientist.com/feed/home/",
-        "https://www.theguardian.com/science/rss",
-        "https://feeds.npr.org/1128/rss.xml",
-        "https://kffhealthnews.org/feed/",
-        "https://feeds.arstechnica.com/arstechnica/science",
-        "https://www.quantamagazine.org/feed/"
-      ]
-    },
-    {
-      "name": "Markets & Business",
+      "name": "US Politics",
       "max_stories": 8,
       "feeds": [
-        "https://feeds.bbci.co.uk/news/business/rss.xml",
-        "https://www.cnbc.com/id/100727362/device/rss/rss.html",
-        "https://feeds.bloomberg.com/markets/news.rss",
-        "https://www.ft.com/markets?format=rss",
-        "https://www.ft.com/companies?format=rss",
-        "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
-        "https://www.economist.com/finance-and-economics/rss.xml",
-        "https://stratechery.com/feed/",
-        "https://www.ben-evans.com/benedictevans?format=rss",
-        "https://feeds.marketwatch.com/marketwatch/topstories/",
-        "https://finance.yahoo.com/news/rssindex",
-        "https://www.theguardian.com/uk/business/rss",
-        "https://www.economist.com/business/rss.xml",
-        "https://www.cnbc.com/id/10001147/device/rss/rss.html"
+        "https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml",
+        "https://feeds.washingtonpost.com/rss/politics",
+        "https://feeds.npr.org/1014/rss.xml",
+        "https://thehill.com/news/feed/",
+        "https://www.realclearpolitics.com/index.xml",
+        "https://www.propublica.org/feeds/propublica/main",
+        "https://www.nationalreview.com/feed/",
+        "https://reason.com/feed/",
+        "https://thedispatch.com/feed/",
+        "https://www.motherjones.com/politics/feed/"
+      ]
+    },
+    {
+      "name": "Indian News",
+      "max_stories": 8,
+      "feeds": [
+        "https://www.thehindu.com/news/national/feeder/default.rss",
+        "https://indianexpress.com/feed/",
+        "https://www.livemint.com/rss/news",
+        "https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms",
+        "https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml",
+        "https://feeds.feedburner.com/ndtvnews-india-news",
+        "https://www.nationalheraldindia.com/stories.rss?section=national",
+        "https://www.deccanherald.com/rss/national.rss"
+      ]
+    },
+    {
+      "name": "Tamil News",
+      "max_stories": 6,
+      "feeds": [
+        "https://www.vikatan.com/stories.rss",
+        "https://www.vikatan.com/stories.rss?section-id=8962&time-period=last-24-hours"
+      ]
+    },
+    {
+      "name": "Tech & AI",
+      "max_stories": 5,
+      "feeds": [
+        "https://feeds.arstechnica.com/arstechnica/technology-lab",
+        "https://www.theverge.com/rss/index.xml",
+        "https://www.technologyreview.com/feed/",
+        "https://techcrunch.com/category/artificial-intelligence/feed/",
+        "https://www.wired.com/feed/rss",
+        "https://feeds.bbci.co.uk/news/technology/rss.xml",
+        "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
+        "https://openai.com/news/rss.xml",
+        "https://deepmind.google/blog/rss.xml",
+        "https://huggingface.co/blog/feed.xml",
+        "https://blog.google/rss/",
+        "https://blog.cloudflare.com/rss/",
+        "https://www.404media.co/rss/",
+        "https://restofworld.org/feed/latest/",
+        "https://www.theregister.com/headlines.atom",
+        "https://www.theguardian.com/uk/technology/rss",
+        "https://spectrum.ieee.org/feeds/feed.rss",
+        "https://simonwillison.net/atom/everything/"
       ]
     }
   ],
