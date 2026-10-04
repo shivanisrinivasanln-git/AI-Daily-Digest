@@ -4,7 +4,7 @@ on:
   schedule:
     # 8:00 AM in Sydney every day. Cron uses UTC unless a timezone is set,
     # and with one set GitHub keeps the local time across daylight saving.
-    - cron: "0 8 * * *"
+    - cron: "0 13 * * *"
       timezone: "Australia/Sydney"
   workflow_dispatch: {}   # manual run from the Actions tab
 
